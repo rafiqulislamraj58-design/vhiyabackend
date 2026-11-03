@@ -15,7 +15,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000', 
-    // 'আপনার_ফ্রন্টএন্ডের_লাইভ_ডোমেইন_লিংক_যদি_থাকে'
+     'https://nauzulhosainsomon.vercel.app'
   ],
   credentials: true, 
 }));
